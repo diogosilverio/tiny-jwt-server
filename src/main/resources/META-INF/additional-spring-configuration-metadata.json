@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "net.diogosilverio.jwt.issuer",
+    "type": "java.lang.String",
+    "description": "Name identifying the responsible/issuer of a token."
+  },
+  {
+    "name": "net.diogosilverio.jwt.key",
+    "type": "java.lang.String",
+    "description": "The path to signing key."
+  },
+  {
+    "name": "net.diogosilverio.jwt.audience",
+    "type": "java.lang.String",
+    "description": "Expected audience for this server."
+  },
+  {
+    "name": "net.diogosilverio.jwt.expiration",
+    "type": "java.lang.String",
+    "description": "Token expiration units(minutes for dev/prd and seconds for tes)"
+  }
+]}
